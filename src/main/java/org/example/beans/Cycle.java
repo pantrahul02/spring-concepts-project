@@ -1,5 +1,8 @@
 package org.example.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component("cycle")
 public class Cycle implements Vehicle{
     @Override
     public void move() {
